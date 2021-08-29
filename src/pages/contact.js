@@ -1,12 +1,12 @@
 import * as React from 'react'
+import Layout from '../components/layout'
 
-const AboutPage = () => {
+const ContactPage = () => {
   return (
-    <main>
-      <title>Contact</title>
-      <h1>Contact</h1>
-    </main>
+    <Layout pageTitle="Contact">
+      <p>Contact Figmaland</p>
+    </Layout>
   )
 }
 
-export default AboutPage
+export default ContactPage
