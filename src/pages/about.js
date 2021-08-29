@@ -1,11 +1,11 @@
 import * as React from 'react'
+import Layout from '../components/layout'
 
 const AboutPage = () => {
   return (
-    <main>
-      <title>About Me</title>
-      <h1>About Me</h1>
-    </main>
+    <Layout pageTitle="About Me">
+      <p>About Figmaland</p>
+    </Layout>
   )
 }
 
